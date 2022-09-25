@@ -1,0 +1,17 @@
+C:\Users\TOSHIBA\Documents\Julian G\MinTic\DS3\TallerDS-C3\TallerMec.App\TallerMec.App.Persistencia\obj\Debug\net6.0\TallerMec.App.Persistencia.csproj.AssemblyReference.cache
+C:\Users\TOSHIBA\Documents\Julian G\MinTic\DS3\TallerDS-C3\TallerMec.App\TallerMec.App.Persistencia\obj\Debug\net6.0\TallerMec.App.Persistencia.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\TOSHIBA\Documents\Julian G\MinTic\DS3\TallerDS-C3\TallerMec.App\TallerMec.App.Persistencia\obj\Debug\net6.0\TallerMec.App.Persistencia.AssemblyInfoInputs.cache
+C:\Users\TOSHIBA\Documents\Julian G\MinTic\DS3\TallerDS-C3\TallerMec.App\TallerMec.App.Persistencia\obj\Debug\net6.0\TallerMec.App.Persistencia.AssemblyInfo.cs
+C:\Users\TOSHIBA\Documents\Julian G\MinTic\DS3\TallerDS-C3\TallerMec.App\TallerMec.App.Persistencia\obj\Debug\net6.0\TallerMec.App.Persistencia.csproj.CoreCompileInputs.cache
+C:\Users\TOSHIBA\Documents\Julian G\MinTic\DS3\TallerDS-C3\TallerMec.App\TallerMec.App.Persistencia\bin\Debug\net6.0\TallerMec.App.Persistencia.deps.json
+C:\Users\TOSHIBA\Documents\Julian G\MinTic\DS3\TallerDS-C3\TallerMec.App\TallerMec.App.Persistencia\bin\Debug\net6.0\TallerMec.App.Persistencia.runtimeconfig.json
+C:\Users\TOSHIBA\Documents\Julian G\MinTic\DS3\TallerDS-C3\TallerMec.App\TallerMec.App.Persistencia\bin\Debug\net6.0\TallerMec.App.Persistencia.dll
+C:\Users\TOSHIBA\Documents\Julian G\MinTic\DS3\TallerDS-C3\TallerMec.App\TallerMec.App.Persistencia\bin\Debug\net6.0\TallerMec.App.Persistencia.pdb
+C:\Users\TOSHIBA\Documents\Julian G\MinTic\DS3\TallerDS-C3\TallerMec.App\TallerMec.App.Persistencia\bin\Debug\net6.0\TallerMec.App.Dominio.dll
+C:\Users\TOSHIBA\Documents\Julian G\MinTic\DS3\TallerDS-C3\TallerMec.App\TallerMec.App.Persistencia\bin\Debug\net6.0\TallerMec.App.Dominio.pdb
+C:\Users\TOSHIBA\Documents\Julian G\MinTic\DS3\TallerDS-C3\TallerMec.App\TallerMec.App.Persistencia\obj\Debug\net6.0\TallerMec.App.Persistencia.csproj.CopyComplete
+C:\Users\TOSHIBA\Documents\Julian G\MinTic\DS3\TallerDS-C3\TallerMec.App\TallerMec.App.Persistencia\obj\Debug\net6.0\TallerMec.App.Persistencia.dll
+C:\Users\TOSHIBA\Documents\Julian G\MinTic\DS3\TallerDS-C3\TallerMec.App\TallerMec.App.Persistencia\obj\Debug\net6.0\refint\TallerMec.App.Persistencia.dll
+C:\Users\TOSHIBA\Documents\Julian G\MinTic\DS3\TallerDS-C3\TallerMec.App\TallerMec.App.Persistencia\obj\Debug\net6.0\TallerMec.App.Persistencia.pdb
+C:\Users\TOSHIBA\Documents\Julian G\MinTic\DS3\TallerDS-C3\TallerMec.App\TallerMec.App.Persistencia\obj\Debug\net6.0\TallerMec.App.Persistencia.genruntimeconfig.cache
+C:\Users\TOSHIBA\Documents\Julian G\MinTic\DS3\TallerDS-C3\TallerMec.App\TallerMec.App.Persistencia\obj\Debug\net6.0\ref\TallerMec.App.Persistencia.dll
