@@ -35,7 +35,6 @@ namespace TallerMec.App.Persistencia.AppRepositorios
             {
                 mecanicoActual.nombre = mecanicoNuevo.nombre;
                 mecanicoActual.telefono = mecanicoNuevo.telefono;
-                mecanicoActual.fechaNacimiento = mecanicoNuevo.fechaNacimiento;
                 mecanicoActual.nivelEstudio = mecanicoNuevo.nivelEstudio;
                 this.dbContext.SaveChanges();
             }

@@ -14,11 +14,8 @@ namespace TallerMec.App.Persistencia.Migrations
                 {
                     mecanicoId = table.Column<string>(type: "nvarchar(450)", nullable: false),
                     nivelEstudio = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    vehiculoId = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    revisionId = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     nombre = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    telefono = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    fechaNacimiento = table.Column<string>(type: "nvarchar(max)", nullable: false)
+                    telefono = table.Column<string>(type: "nvarchar(max)", nullable: false)
                 },
                 constraints: table =>
                 {
@@ -30,10 +27,9 @@ namespace TallerMec.App.Persistencia.Migrations
                 columns: table => new
                 {
                     propietarioId = table.Column<string>(type: "nvarchar(450)", nullable: false),
+                    correo = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     fechaNacimiento = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    contrasenia = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    vehiculoId = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    revisionId = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    ciudad = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     nombre = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     telefono = table.Column<string>(type: "nvarchar(max)", nullable: false)
                 },
@@ -48,8 +44,8 @@ namespace TallerMec.App.Persistencia.Migrations
                 {
                     revisionId = table.Column<string>(type: "nvarchar(450)", nullable: false),
                     fechaRev = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    vehiculoId = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    mecanicoId = table.Column<string>(type: "nvarchar(max)", nullable: false)
+                    mecanicoId = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    vehiculoId = table.Column<string>(type: "nvarchar(max)", nullable: false)
                 },
                 constraints: table =>
                 {
@@ -57,24 +53,21 @@ namespace TallerMec.App.Persistencia.Migrations
                 });
 
             migrationBuilder.CreateTable(
-                name: "vehiculos",
+                name: "Vehiculos",
                 columns: table => new
                 {
                     vehiculoId = table.Column<string>(type: "nvarchar(450)", nullable: false),
-                    placa = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     modelo = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     tipoVehiculo = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     marca = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     capacidad = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     cilindraje = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    pais = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    accesorios = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    mecanicoId = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    revisionId = table.Column<string>(type: "nvarchar(max)", nullable: false)
+                    ciudadOrigen = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    propietarioId = table.Column<string>(type: "nvarchar(max)", nullable: false)
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_vehiculos", x => x.vehiculoId);
+                    table.PrimaryKey("PK_Vehiculos", x => x.vehiculoId);
                 });
         }
 
@@ -90,7 +83,7 @@ namespace TallerMec.App.Persistencia.Migrations
                 name: "Revisions");
 
             migrationBuilder.DropTable(
-                name: "vehiculos");
+                name: "Vehiculos");
         }
     }
 }

@@ -9,8 +9,5 @@ namespace TallerMec.App.Dominio.Entidades
     {
         public string nombre {get; set;}
         public string telefono {get; set;}
-        public string fechaNacimiento {get; set;}
-        
-
     }
 }

@@ -14,7 +14,7 @@ namespace TallerMec.App.Persistencia.AppRepositorio
     {
         public virtual DbSet<Mecanico> Mecanics { get; set; }
         public virtual DbSet<Revision> Revisions { get; set; }
-        public virtual DbSet<Vehiculo> vehiculos { get; set; }
+        public virtual DbSet<Vehiculo> Vehiculos { get; set; }
         public virtual DbSet<Propietario> Propietarios { get; set; }
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {

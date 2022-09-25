@@ -8,9 +8,9 @@ namespace TallerMec.App.Dominio.Entidades
     public class Propietario: Persona
     {
         public string propietarioId {get; set;}
+        //public string contrasenia {get; set;}
+        public string correo {get; set;}
         public string fechaNacimiento {get; set;}
-        public string contrasenia {get; set;}
-        public string vehiculoId {get; set;}
-        public string revisionId {get; set;}
+        public string ciudad {get; set;}
     }
 }

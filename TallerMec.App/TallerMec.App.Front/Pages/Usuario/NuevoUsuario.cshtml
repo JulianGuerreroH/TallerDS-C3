@@ -6,43 +6,26 @@
 
 <h3>REGISTRO USUARIO</h3>
 <!-- form-control is-valid / is-invalid Como funciona ? -->
-<form class="row g-3">
-    <div class="col-md-4">
-        <label for="validationServer01" class="form-label">Nombres</label>
-        <input type="text" class="form-control" id="validationServer01" value="Mark" required>
+<form class="row g-3" method="post">
+    <div class="col-md-8">
+        <label for="nombre-propietario" class="form-label">Nombre</label>
+        <input type="text" class="form-control" id="nombre-propietario" name="nombre" required>
         <div class="valid-feedback">
             Correcto!
         </div>
     </div>
+
     <div class="col-md-4">
-        <label for="validationServer02" class="form-label">Apellidos</label>
-        <input type="text" class="form-control" id="validationServer02" value="Otto" required>
-        <div class="valid-feedback">
-            Correcto!
-        </div>
-    </div>
-    <div class="col-md-4">
-        <label for="validationServerUsername" class="form-label">Usuario</label>
-        <div class="input-group has-validation">
-            <span class="input-group-text" id="inputGroupPrepend3"></span>
-            <input type="text" class="form-control" id="validationServerUsername"
-                aria-describedby="inputGroupPrepend3 validationServerUsernameFeedback" required>
-            <div id="validationServerUsernameFeedback" class="invalid-feedback">
-                Ingrese un usario
-            </div>
-        </div>
-    </div>
-    <div class="col-md-4">
-        <label for="validationServer04" class="form-label">Identificación</label>
-        <input type="text" class="form-control" id="validationServer04" aria-describedby="validationServer04Feedback"
+        <label for="id-propietario" class="form-label">Identificación</label>
+        <input type="text" class="form-control" id="id-propietario" name="propietarioId"
             required>
         <div id="validationServer04Feedback" class="invalid-feedback">
             Ingrese su id.
         </div>
     </div>
     <div class="col-md-4">
-        <label for="validationServer05" class="form-label">Ciudad</label>
-        <select class="form-select" id="validationServer05" aria-describedby="validationServer05Feedback" required>
+        <label for="ciudadp" class="form-label">Ciudad</label>
+        <select class="form-select" id="ciudadp" name="ciudad" required>
             <option selected disabled value="">Seleccione...</option>
             <option>Leticia</option>
             <option>Medellín</option>
@@ -106,43 +89,44 @@
         </div>
     </div>
     <div class="col-md-4">
-        <label for="validationServer06" class="form-label">Fecha de Nacimiento</label>
-        <input type="date" class="form-control" id="validationServer06" aria-describedby="validationServer05Feedback"
+        <label for="fechanacimiento" class="form-label">Fecha de Nacimiento</label>
+        <input type="date" class="form-control" id="fechanacimiento" name="fechaNacimiento"
             required>
         <div id="validationServer06Feedback" class="invalid-feedback">
             Ingrese una fecha
         </div>
     </div>
-    <div class="col-md-8">
-        <label for="validationServer07" class="form-label">Correo</label>
-        <input type="mail" class="form-control" id="validationServer07" aria-describedby="validationServer07Feedback"
-            required>
-        <div id="validationServer07Feedback" class="invalid-feedback">
-            Ingrese su correo
-        </div>
-    </div>
     <div class="col-md-4">
-        <label for="validationServer08" class="form-label">Célular</label>
-        <input type="tel" class="form-control" id="validationServer08" aria-describedby="validationServer08Feedback"
+        <label for="telefono" class="form-label">Teléfono</label>
+        <input type="tel" class="form-control" id="telefono" name="telefono"
             required>
         <div id="validationServer08Feedback" class="invalid-feedback">
             Ingrese número ceéular
         </div>
     </div>
+    <div class="col-md-8">
+        <label for="correo" class="form-label">Correo</label>
+        <input type="mail" class="form-control" id="correo" name="correo"
+            required>
+        <div id="validationServer07Feedback" class="invalid-feedback">
+            Ingrese su correo
+        </div>
+    </div>
+    
     <br>
     <h3>REGISTRO VEHÍCULO</h3>
     <br>
     <div class="col-md-4">
-        <label for="validationServer09" class="form-label">Placa Vehículo</label>
-        <input type="text" class="form-control" id="validationServer09" aria-describedby="validationServer09Feedback"
+        <label for="placa" class="form-label">Placa Vehículo</label>
+        <input type="text" class="form-control" id="placa" name="vehiculoId"
             required>
         <div id="validationServer09Feedback" class="invalid-feedback">
             Ingrese la placa del Vehículo
         </div>
     </div>
     <div class="col-md-4">
-        <label for="validationServer10" class="form-label">Marca Vehículo</label>
-        <select class="form-select" id="validationServer10" aria-describedby="validationServer10Feedback" required>
+        <label for="marca" class="form-label">Marca Vehículo</label>
+        <select class="form-select" id="marca" name="marca" required>
             <option selected disabled value="">Seleccione...</option>
             <option>Volkswagen</option>
             <option>Hyundai</option>
@@ -156,12 +140,12 @@
             <option>Chevrolet</option>
         </select>
         <div id="validationServer10Feedback" class="invalid-feedback">
-            Please select a valid state.
+            Seleccione una Marca.
         </div>
     </div>
     <div class="col-md-4">
-        <label for="validationServer11" class="form-label">Tipo Vehículo</label>
-        <select class="form-select" id="validationServer11" aria-describedby="validationServer11Feedback" required>
+        <label for="tipo" class="form-label">Tipo Vehículo</label>
+        <select class="form-select" id="tipo" name="tipoVehiculo" required>
             <option selected disabled value="">Seleccione...</option>
             <option>Camiones</option>
             <option>Pick Up</option>
@@ -173,36 +157,36 @@
             <option>Sedán</option>
         </select>
         <div id="validationServer11Feedback" class="invalid-feedback">
-            Please select a valid state.
+            Seleccione un tipo de vehículo.
         </div>
     </div>
     <div class="col-md-3">
-        <label for="validationServer09" class="form-label">Número Pasajeros</label>
-        <input type="number" min="0" class="form-control" id="validationServer09"
-            aria-describedby="validationServer09Feedback" required>
+        <label for="pasajeros" class="form-label">Número Pasajeros</label>
+        <input type="number" min="0" class="form-control" id="pasajeros"
+            name="capacidad" required>
+        <div id="validationServer09Feedback" class="invalid-feedback">
+            Ingrese la capacidad del vehículo
+        </div>
+    </div>
+    <div class="col-md-3">
+        <label for="modelo" class="form-label">Modelo Vehículo</label>
+        <input type="number" min="1900" max="2099" step="1" value="2016" class="form-control" id="modelo"
+            name="modelo" required>
         <div id="validationServer09Feedback" class="invalid-feedback">
             Ingrese la placa del Vehículo
         </div>
     </div>
     <div class="col-md-3">
-        <label for="validationServer09" class="form-label">Modelo Vehículo</label>
-        <input type="number" min="1900" max="2099" step="1" value="2016" class="form-control" id="validationServer09"
-            aria-describedby="validationServer09Feedback" required>
+        <label for="cilindrada" class="form-label">Cilindrada motor[cm3]</label>
+        <input type="number" min="0" class="form-control" id="cilindrada"
+            name="cilindraje" required>
         <div id="validationServer09Feedback" class="invalid-feedback">
-            Ingrese la placa del Vehículo
+            Ingrese la cilindrada del vehículo
         </div>
     </div>
     <div class="col-md-3">
-        <label for="validationServer09" class="form-label">Cilindrada motor[cm3]</label>
-        <input type="number" min="0" class="form-control" id="validationServer09"
-            aria-describedby="validationServer09Feedback" required>
-        <div id="validationServer09Feedback" class="invalid-feedback">
-            Ingrese la placa del Vehículo
-        </div>
-    </div>
-    <div class="col-md-3">
-        <label for="validationServer05" class="form-label">Ciudad de origen Vehículo</label>
-        <select class="form-select" id="validationServer05" aria-describedby="validationServer05Feedback" required>
+        <label for="ciudad" class="form-label">Ciudad de origen Vehículo</label>
+        <select class="form-select" id="ciudad" name="ciudadOrigen" required>
             <option selected disabled value="">Seleccione...</option>
             <option>Leticia</option>
             <option>Medellín</option>
@@ -262,10 +246,10 @@
             <option>Puerto Carreño</option>
         </select>
         <div id="validationServer05Feedback" class="invalid-feedback">
-            Please select a valid state.
+            Ingrese una ciudad valida
         </div>
     </div>
-    <h5>Accesorios adicionales - Vehículo</h5>
+    @*<h5>Accesorios adicionales - Vehículo</h5>
 
     <div class="form-check col-md">
         <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
@@ -284,9 +268,9 @@
         <label class="form-check-label" for="flexCheckDefault">
             TV
         </label>
-    </div>
+    </div>*@
     <br><br><br><br>
-    <div class="col-12">
+    @*<div class="col-12">
         <div class="form-check">
             <input class="form-check-input" type="checkbox" value="" id="invalidCheck3"
                 aria-describedby="invalidCheck3Feedback" required>
@@ -297,9 +281,9 @@
                 Debe estar de acuerdo antes de continuar
             </div>
         </div>
-    </div>
+    </div>*@
     <div class="col-12">
-        <button class="btn btn-primary" type="submit">Guardar</button>
+        <button class="btn btn-primary" type="submit" asp-page-handler="Add">Guardar</button> </div>
 </form>
 <br>
 <br>

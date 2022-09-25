@@ -1,5 +1,10 @@
 <Project Sdk="Microsoft.NET.Sdk.Web">
 
+  <ItemGroup>
+    <ProjectReference Include="..\TallerMec.App.Persistencia\TallerMec.App.Persistencia.csproj" />
+    <ProjectReference Include="..\TallerMec.App.Dominio\TallerMec.App.Dominio.csproj" />
+  </ItemGroup>
+
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
     <Nullable>enable</Nullable>

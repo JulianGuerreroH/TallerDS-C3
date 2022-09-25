@@ -9,7 +9,5 @@ namespace TallerMec.App.Dominio.Entidades
     {
         public string mecanicoId { get; set; }
         public string nivelEstudio {get; set;}
-        public string vehiculoId {get; set;}
-        public string revisionId {get; set;}
     }
 }

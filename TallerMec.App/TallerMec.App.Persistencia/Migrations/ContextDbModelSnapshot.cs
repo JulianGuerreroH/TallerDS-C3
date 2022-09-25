@@ -26,10 +26,6 @@ namespace TallerMec.App.Persistencia.Migrations
                     b.Property<string>("mecanicoId")
                         .HasColumnType("nvarchar(450)");
 
-                    b.Property<string>("fechaNacimiento")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
                     b.Property<string>("nivelEstudio")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
@@ -38,15 +34,7 @@ namespace TallerMec.App.Persistencia.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("revisionId")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
                     b.Property<string>("telefono")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("vehiculoId")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
@@ -60,7 +48,11 @@ namespace TallerMec.App.Persistencia.Migrations
                     b.Property<string>("propietarioId")
                         .HasColumnType("nvarchar(450)");
 
-                    b.Property<string>("contrasenia")
+                    b.Property<string>("ciudad")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("correo")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
@@ -72,15 +64,7 @@ namespace TallerMec.App.Persistencia.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("revisionId")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
                     b.Property<string>("telefono")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("vehiculoId")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
@@ -116,10 +100,6 @@ namespace TallerMec.App.Persistencia.Migrations
                     b.Property<string>("vehiculoId")
                         .HasColumnType("nvarchar(450)");
 
-                    b.Property<string>("accesorios")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
                     b.Property<string>("capacidad")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
@@ -128,11 +108,11 @@ namespace TallerMec.App.Persistencia.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("marca")
+                    b.Property<string>("ciudadOrigen")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("mecanicoId")
+                    b.Property<string>("marca")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
@@ -140,15 +120,7 @@ namespace TallerMec.App.Persistencia.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("pais")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("placa")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("revisionId")
+                    b.Property<string>("propietarioId")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
@@ -158,7 +130,7 @@ namespace TallerMec.App.Persistencia.Migrations
 
                     b.HasKey("vehiculoId");
 
-                    b.ToTable("vehiculos");
+                    b.ToTable("Vehiculos");
                 });
 #pragma warning restore 612, 618
         }
