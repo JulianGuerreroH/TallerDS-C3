@@ -32,6 +32,7 @@ namespace TallerMec.App.Front.Pages.JefeOperaciones
                         tipoVehiculo = Vehiculo.tipoVehiculo,
                         modelo = Vehiculo.modelo,
                         capacidad = Vehiculo.capacidad,
+                        marca = Vehiculo.marca,
                         
                     }
                 );

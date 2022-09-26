@@ -23,6 +23,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/TOSHIBA/Documents/Julian G/MinTic/DS3/TallerDS-C3/TallerMec.App/TallerMec.App.Front/Pages/JefeOperaciones/BuscarPlaca.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSmVmZU9wZXJhY2lvbmVzXEJ1c2NhclBsYWNhLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/TOSHIBA/Documents/Julian G/MinTic/DS3/TallerDS-C3/TallerMec.App/TallerMec.App.Front/Pages/JefeOperaciones/GestionJefeOperaciones.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSmVmZU9wZXJhY2lvbmVzXEdlc3Rpb25KZWZlT3BlcmFjaW9uZXMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
@@ -37,6 +41,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/TOSHIBA/Documents/Julian G/MinTic/DS3/TallerDS-C3/TallerMec.App/TallerMec.App.Front/Pages/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/TOSHIBA/Documents/Julian G/MinTic/DS3/TallerDS-C3/TallerMec.App/TallerMec.App.Front/Pages/Usuario/AgendarCita.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVXN1YXJpb1xBZ2VuZGFyQ2l0YS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/TOSHIBA/Documents/Julian G/MinTic/DS3/TallerDS-C3/TallerMec.App/TallerMec.App.Front/Pages/Usuario/NuevoUsuario.cshtml]

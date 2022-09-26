@@ -24,5 +24,9 @@ namespace TallerMec.App.Persistencia.AppRepositorios
         {
             return this.dbContext.Propietarios;
         }
+        public Propietario BuscarPropietario(string id)
+        {
+            return this.dbContext.Propietarios.FirstOrDefault(p => p.propietarioId == id);
+        }
     }
 }

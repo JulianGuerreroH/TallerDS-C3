@@ -1,0 +1,55 @@
+@page
+@model TallerMec.App.Front.Pages.JefeOperaciones.BuscarPlaca
+@{
+    ViewData["Title"] = "BuscarPlaca";
+}
+
+<h1>@ViewData["Title"]</h1>
+<br><br>
+<div>
+    <h4><b>Ingresar placa para obtener la información completa del vehículo</b></h4>
+</div><br>
+
+<form method="post">
+    <div class="input-group rounded w-25 p-3">
+        <input type="search" class="form-control rounded" placeholder="Digite Placa Vehículo" aria-label="Search"
+            aria-describedby="search-addon" name="vehiculoId" />
+        <button class="bi bi-search border-0" type="submit" id="search-addon" asp-page-handler="BuscarPlaca"> </button>
+    </div>
+</form>
+
+<table class="table with:50px">
+    <thead>
+        <tr class="text-center">
+            <th scope="col">Propietario</th>
+            <th scope="col">Telefono</th>
+            <th scope="col">Correo</th>
+            <th scope="col">Placa Vehículo</th>
+            <th scope="col">Modelo</th>
+            <th scope="col">Tipo Vehículo</th>
+            <th scope="col">Marca</th>
+            <th scope="col">Capacidad</th>
+            <th scope="col">Cilindraje</th>
+            <th scope="col">Cidad Origen</th>
+            
+            @* <th scope="col">Propietario</th> *@
+        </tr>
+    </thead>
+    <tbody>
+        <tr class="text-center">
+            <td>@Model.propietario.nombre</td>
+            <td>@Model.propietario.telefono</td>
+            <td>@Model.propietario.correo</td>
+            <td>@Model.vehiculo.vehiculoId</td>
+            <td>@Model.vehiculo.modelo</td>
+            <td>@Model.vehiculo.tipoVehiculo</td>
+            <td>@Model.vehiculo.marca</td>
+            <td>@Model.vehiculo.capacidad</td>
+            <td>@Model.vehiculo.cilindraje</td>
+            <td>@Model.vehiculo.ciudadOrigen</td>
+            
+            
+        </tr>
+
+    </tbody>
+</table>

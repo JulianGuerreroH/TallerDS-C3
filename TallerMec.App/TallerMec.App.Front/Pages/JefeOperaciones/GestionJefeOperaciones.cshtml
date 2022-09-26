@@ -24,18 +24,20 @@
 
 <table class="table table-hover">
     <thead class="table-dark">
-        <tr>
-            <th scope="col">Placa</th>
-            <th scope="col">Tipo</th>
-            <th scope="col">Modelo</th>
-            <th scope="col">Capacidad</th>
+        <tr class="text-center">
+            <th scope="col">Placa Vehículo</th>
+            <th scope="col">Marca Vehículo</th>
+            <th scope="col">Tipo Vehículo</th>
+            <th scope="col">Modelo Vehículo</th>
+            <th scope="col">Capacidad - Personas</th>
         </tr>
     </thead>
     <tbody>
         @foreach (var v in Model.ListaVehiculos)
         {
-            <tr>
+            <tr class="text-center">
                 <td>@v.vehiculoId</td>
+                <td>@v.marca</td>
                 <td>@v.tipoVehiculo</td>
                 <td>@v.modelo</td>
                 <td>@v.capacidad</td>
